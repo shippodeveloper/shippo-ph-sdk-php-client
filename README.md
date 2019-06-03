@@ -10,10 +10,10 @@ The Shippo API Client Library for PHP enables you working with Shippo's Open API
 **Open API**
 
 Is Shippo's public API that provides developers or partner with programmatic access to Shippo's system. 
-More detail [here](https://open-api.shippo.vn/#k%E1%BA%BFt-n%E1%BB%91i-v%E1%BB%9Bi-shippo-s%E1%BA%BD-mang-%C4%91%E1%BA%BFn-nh%E1%BB%AFng-kh%E1%BA%A3-n%C4%83ng-g%C3%AC).  
+More detail [here](https://open-api.shippo.ph/#k%E1%BA%BFt-n%E1%BB%91i-v%E1%BB%9Bi-shippo-s%E1%BA%BD-mang-%C4%91%E1%BA%BFn-nh%E1%BB%AFng-kh%E1%BA%A3-n%C4%83ng-g%C3%AC).  
  
 ## APIs documentation ##
-https://open-api.shippo.vn/
+https://open-api.shippo.ph/
 
 ## Installation ##
 ### Requirements ###
@@ -31,7 +31,7 @@ Configuration is done through an instance of ShippoSDK\Client with ShippoSDK\Con
 ```php
 $config = new \ShippoSDK\Config([
     'access_token' => 'your access token',
-    'base_uri' => 'https://apix.shippo.vn', // or https://sandbox-apix.shippo.vn for sandbox mode
+    'base_uri' => 'https://apix.shippo.ph', // or https://sandbox-apix.shippo.ph for sandbox mode
 ]);
 $client = new \ShippoSDK\Client($config);
 ```
